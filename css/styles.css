@@ -1,0 +1,149 @@
+ul {
+    list-style-type: none;
+}
+
+
+h3 {
+    color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+.web-studio-link {
+    /* WebStudio */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.web {
+    /* WebStudio */
+    color: #2196F3
+}
+
+a.web-studio-link:link {color:#000000}
+a.web-studio-link:visited {color: #000000;}
+a.web-studio-link:hover {color:#2196F3;}
+a.web-studio-link:active {color: #000000;}
+
+a.nav-links:link {color: #212121;}
+a.nav-links:visited {color: #212121;}
+a.nav-links:hover {color: #2196F3;}
+a.nav-links:active {color: #212121;}
+
+a.contact-links:link {color: #757575}
+a.contact-links:visited {color: #757575}
+a.contact-links:hover {color: #2196F3}
+a.contact-links:active {color: #757575}
+
+.nav-list {
+    /* Agencja */
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+}
+
+.hero {
+background: #2F303A;
+}
+
+.header-top-line {
+    /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
+font-weight: 900;
+font-size: 30px;
+line-height: 136%;
+color: #FFFFFF;
+}
+
+.button-main {
+    /* bg */
+color: #ffffff;
+cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+line-height: 188%;
+}
+
+title-lorem {
+    /* LOREM IPSUM */
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+}
+
+.box {
+line-height: 171%;
+color: #757575;
+}
+
+.about-us {
+    /* Czym się zajmujemy */
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+}
+
+.about-us-img {
+width: 370px;
+height: 294px;
+}
+
+.our-team {
+    /* Nasz zespół */
+width: 210px;
+height: 42px;
+}
+
+.card {
+    /* card bg */
+width: 270px;
+height: 368px;
+}
+
+.footer {
+background: #2F303A;
+}
+
+.footer-top-line {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 100%;
+color: #FFFFFF;
+}
+
+.footer-location {
+font-size: 14px;
+line-height: 171%;
+color: #FFFFFF;
+}
+
+.footer-contact {
+font-size: 14px;
+line-height: 171%;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.button-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 162%;
+cursor: pointer;
+}
+
+.project-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+}
+
+.project-description {
+font-size: 16px;
+line-height: 188%;
+color: #757575;
+}
