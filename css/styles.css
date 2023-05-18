@@ -1,7 +1,17 @@
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
+h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
 
 h3 {
     color: #212121;
@@ -48,16 +58,18 @@ font-size: 14px;
 line-height: 100%;
 }
 
-.hero {
-background: #2F303A;
-}
-
 .header-top-line {
     /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 font-weight: 900;
 font-size: 30px;
 line-height: 136%;
 color: #FFFFFF;
+padding: 200px 452px;
+background: #2F303A;
+}
+
+h1 {
+    width: 696px;
 }
 
 .button-main {
@@ -74,6 +86,15 @@ title-lorem {
 font-weight: 700;
 font-size: 14px;
 line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.text-lorem {
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 .box {
@@ -88,6 +109,14 @@ font-size: 36px;
 line-height: 100%;
 }
 
+.what-we-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .about-us-img {
 width: 370px;
 height: 294px;
@@ -95,9 +124,9 @@ height: 294px;
 
 .our-team {
     /* Nasz zespół */
-width: 210px;
-height: 42px;
-padding-top: 94px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
 padding-bottom: 50px;
 }
 
@@ -161,14 +190,18 @@ color: #757575;
 }
 .team-main {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .menu-nav {
     display: flex;
     align-items: baseline;
+    width: 50%;
     }
 
 .nav-list {
     display: flex;
+    width: 50%;
 }
 
 .contacts-nav {
@@ -182,16 +215,23 @@ color: #757575;
 }
 
 .lorem-list {
-    display:flex
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 94px;
 }
 
 .our-work {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 94px;
 }
 
 .team-cards {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
 }
