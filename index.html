@@ -20,32 +20,38 @@
     </style>
 </head>
 <body>
-    <header>
-    <nav>
-        <a href="index.html" class="web-studio-link"><span class="web">Web</span>Studio</a>
-        <ul class="nav-list">
-            <li><a class="nav-links" href="https://google.com">Agencja</a></li>
-            <li><a class="nav-links" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-links" href="https://google.com">Kontakt</a></li>
-        </ul>
-    </nav>
-        <ul class="nav-list">
-            <li><a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contact-links" href="tel:48111111111">+48 111 111 111</a></li>
-        </ul>
+    <header class="container">
+        <nav>
+            <div class="menu-nav">
+                            <a href="index.html" class="ws-link"><span class="web">Web</span>Studio</a>
+                    <ul class="nav-list">
+                        <li><a class="nav-links" href="https://google.com">Agencja</a></li>
+                        <li><a class="nav-links" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-links" href="https://google.com">Kontakt</a></li>
+                    </ul>
+            </div>
+            <div class="contacts-nav">
+                <ul class="contacts-list">
+                    <li><a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact-links" href="tel:48111111111">+48 111 111 111</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <!--HERO-->
-    <section class="hero">
 
+    <section class="hero">
+        <div class="container">
         <div class="header-top-line"><h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1></div>
 
             <button class="button-main" type="button">Zamów usługę</button>
-        
+        </div>
     </section>
 
     <section>
-        <ul>
+        <div class="container">
+        <ul class="lorem-list">
             <li>
             <div class="box">
                 <h3 class="title-lorem">LOREM IPSUM</h3>
@@ -67,68 +73,74 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</div>
             </li>
         </ul>
+        </div>
     </section>
 
     <!--O NAS-->
     <section> 
-        <div><h2>Czym się zajmujemy</h2></div>
-    <ul>
-        <li><img class="about-us-img" src="images/o_nas.jpg" alt="osoba pracująca na tablecie i komputerze" width="370" height="294"></li>
-        <li><img class="about-us-img" src="images/o_nas_1.jpg" alt="osoba pracująca na telefonie komórkowym i laptopie" width="370" height="294"></li>
-        <li><img class="about-us-img" src="images/o_nas_2.jpg" alt="osoba pracująca na tablecie" width="370" height="294"></li>
-    </ul>
+    <div class="container">
+            <div><h2>Czym się zajmujemy</h2></div>
+        <ul class="our-work">
+            <li><img class="about-us-img" src="images/o_nas.jpg" alt="osoba pracująca na tablecie i komputerze" width="370" height="294"></li>
+            <li><img class="about-us-img" src="images/o_nas_1.jpg" alt="osoba pracująca na telefonie komórkowym i laptopie" width="370" height="294"></li>
+            <li><img class="about-us-img" src="images/o_nas_2.jpg" alt="osoba pracująca na tablecie" width="370" height="294"></li>
+        </ul>
+    </div>
     </section>
 
     <!--NASZ ZESPÓŁ-->
     <section>
+        <div class="container team-main">
         <h2 class="our-team">Nasz zespół</h2>
-    <ul>
+    <ul class="team-cards">
         <li>
             <div class="card">
             <img src="images/nasz_zespol_1.jpg" alt="uśmiechający się męzczyzna w okularach i brązowej koszuli" width="270" height="260"> 
-                <h3>John Doe</h3>
-                <p>Product Designer</p>    
+                <h3 class="card-name">John Doe</h3>
+                <p class="position-name">Product Designer</p>    
             </div>
         </li>
         
         <li>
             <div class="card">
             <img src="images/nasz_zespol_2.jpg" alt="uśmiechająca się blondynka w okularach i zakiecie" width="270" height="260">
-                <h3>John Doe</h3>
-                <p>Frontend Developer</p>
+                <h3 class="card-name">John Doe</h3>
+                <p class="position-name">Frontend Developer</p>
             </div>
         </li>
 
         <li>
             <div class="card">
                 <img src="images/nasz_zespol_3.jpg" alt="uśmiechający się męzczyzna w blękitnej koszuli" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Marketing</p>
+                    <h3 class="card-name">John Doe</h3>
+                    <p class="position-name">Marketing</p>
             </div>
         </li>
 
         <li>
             <div class="card">
                 <img src="images/nasz_zespol_4.jpg" alt="uśmiechający się męzczyzna w okularach i czarnej koszulce" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>UI Designer</p>
+                    <h3 class="card-name">John Doe</h3>
+                    <p class="position-name">UI Designer</p>
             </div>
         </li>
     </ul>
+    </div>
     </section>
 
     </main>
-    <footer class="footer">
-        <p class="footer-top-line"><span class="web">Web</span>Studio</p>
-        <address>
-            <ul>
-                <li><a class="footer-location" href="https://goo.gl/maps/ze5Bx688UndLrZjg8" target="_blank">
+    <div class="container">
+        <footer class="footer">
+            <p class="footer-top-line"><span class="web">Web</span>Studio</p>
+            <address>
+                <ul class="">
+                    <li><a class="footer-location" href="https://goo.gl/maps/ze5Bx688UndLrZjg8" target="_blank">
                     m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a class="footer-contact" href="mailto:info@example.com">info@example.com</a></li>
-                <li><a class="footer-contact" href="tel:48111111111">+48 111 111 111</a></li>
-            </ul>
-        </address>
-    </footer>
-    
+                    <li><a class="footer-contact" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="footer-contact" href="tel:48111111111">+48 111 111 111</a></li>
+                </ul>
+            </address>
+        </footer>
+    </div>  
 </body>
 </html>

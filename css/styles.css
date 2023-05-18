@@ -11,13 +11,14 @@ a {
     text-decoration: none;
 }
 
-.web-studio-link {
+.ws-link {
     /* WebStudio */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 100%;
+    padding-top: 24px;
 }
 
 .web {
@@ -25,10 +26,10 @@ a {
     color: #2196F3
 }
 
-a.web-studio-link:link {color:#000000}
-a.web-studio-link:visited {color: #000000;}
-a.web-studio-link:hover {color:#2196F3;}
-a.web-studio-link:active {color: #000000;}
+a.ws-link:link {color:#000000}
+a.ws-link:visited {color: #000000;}
+a.ws-link:hover {color:#2196F3;}
+a.ws-link:active {color: #000000;}
 
 a.nav-links:link {color: #212121;}
 a.nav-links:visited {color: #212121;}
@@ -40,7 +41,7 @@ a.contact-links:visited {color: #757575}
 a.contact-links:hover {color: #2196F3}
 a.contact-links:active {color: #757575}
 
-.nav-list {
+.contacts-list {
     /* Agencja */
 font-weight: 500;
 font-size: 14px;
@@ -96,12 +97,18 @@ height: 294px;
     /* Nasz zespół */
 width: 210px;
 height: 42px;
+padding-top: 94px;
+padding-bottom: 50px;
 }
 
 .card {
     /* card bg */
 width: 270px;
 height: 368px;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 }
 
 .footer {
@@ -146,4 +153,68 @@ line-height: 200%;
 font-size: 16px;
 line-height: 188%;
 color: #757575;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.team-main {
+    background-color: #F5F4FA;
+}
+.menu-nav {
+    display: flex;
+    align-items: baseline;
+    }
+
+.nav-list {
+    display: flex;
+}
+
+.contacts-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+.contacts-list {
+    display: flex;
+}
+
+.lorem-list {
+    display:flex
+}
+
+.our-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-name {
+    color: #212121;
+    display: flex;
+    justify-content: center;
+}
+
+.position-name {
+    color: #757575;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-menu {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
