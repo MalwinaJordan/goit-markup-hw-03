@@ -64,6 +64,8 @@ line-height: 100%;
 }
 
 .hero {
+    width: 1600px;
+    height: 600px;
     background-color: #2F303A;
 }
 
@@ -76,19 +78,25 @@ line-height: 100%;
 
 .title-main {
     /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
-display: flex;
-justify-content: center;
-align-items: center;
-width: 696px;
-padding-top: 200px;
-padding-left: 452px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    padding-bottom: 30px;
 }
 
 h1 {
+    display: flex;
+    max-width: 696px;
+    text-align: center;
+    margin: 0;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 44px;
     line-height: 136%;
     color: #FFFFFF;
+    padding-top: 200px;
+
 }
 
 .order-button {
@@ -153,6 +161,7 @@ height: 294px;
 }
 
 .our-team {
+    width: 1600px;
     background-color: #F5F4FA;
 }
 
@@ -370,6 +379,8 @@ color: #757575;
     color: #212121;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .portfolio-container {
