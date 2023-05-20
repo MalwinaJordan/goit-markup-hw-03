@@ -33,6 +33,7 @@ p {
     font-weight: 700;
     font-size: 26px;
     line-height: 100%;
+    color: #000000;
     padding-top: 24px;
     padding-bottom: 25px;
     padding-right: 93px;
@@ -43,10 +44,7 @@ p {
     color: #2196F3
 }
 
-a.ws-link:link {color:#000000}
-a.ws-link:visited {color: #000000;}
-a.ws-link:hover {color:#2196F3;}
-a.ws-link:active {color: #000000;}
+bu
 
 a.nav-links:link {color: #212121;}
 a.nav-links:visited {color: #212121;}
@@ -111,7 +109,6 @@ cursor: pointer;
 font-weight: 700;
 font-size: 16px;
 line-height: 188%;
-
 }
 
 title-lorem {
@@ -178,8 +175,12 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer {
+width: 1600px;
+height: 252px;
+display: flex;
 background: #2F303A;
 padding-top: 60px;
+margin: 0px;
 }
 
 .footer-top-line {
@@ -206,20 +207,37 @@ color: rgba(255, 255, 255, 0.6);
 letter-spacing: 0.03em;
 }
 
-.button-portfolio {
-height: 38px;
-font-weight: 500;
-font-size: 16px;
-line-height: 162%;
-color: #212121;
-cursor: pointer;
-background: #F5F4FA;
-border-radius: 4px;
-border-style: none;
+.footer-contact-mail {
+    font-size: 14px;
+    line-height: 171%;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    }
 
-padding: 0px 0px;
-margin: 0 auto;
-}
+
+.button-portfolio {
+        /* button-portfolio */
+    height: 38px;
+    background-color: #F5F4FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    
+    color: #212121;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+a.button-portfolio:link {background-color: #F5F4FA; color: #212121}
+a.button-portfolio:visited {background-color: #F5F4FA; color: #212121}
+a.button-portfolio:hover {background-color: #2196F3; color: #FFFFFF}
+a.button-portfolio:active {background-color: #2196F3; color: #FFFFFF}
 
 .project-card {
     display: flex;
@@ -262,7 +280,7 @@ color: #757575;
 
 .container {
     width: 1200px;
-    margin: auto;
+    margin: 0 200px;
 }
 
 .navigation-container {
@@ -355,7 +373,10 @@ color: #757575;
 }
 
 .portfolio-container {
+    width: 572px;
     padding-top: 94px;
+    padding-bottom: 34px;
+    margin: 0 auto;
 }
 
 .position-name {
@@ -376,4 +397,5 @@ color: #757575;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
+    margin-bottom: 94px;
 }
